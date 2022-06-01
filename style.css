@@ -1,0 +1,40 @@
+body 
+{
+    background-color: rgb(163, 202, 231);
+}
+
+h1{
+    color: rgb(66, 107, 130);
+    background-color: whitesmoke;
+}
+
+#show_sketch 
+{
+    float: left;
+}
+
+canvas
+{
+     border: 5px solid whitesmoke;
+     border-radius: 20px;
+     animation-name: example;
+     animation-duration: 4s;
+     margin-top: 70px;
+     animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from { box-shadow: 1px 1px 38px rgb(68, 105, 180)}
+    to { box-shadow: 1px 1px 38px rgb(136, 203, 230)}
+}
+
+#score
+{
+    float: right;
+}
+
+#time
+{
+    float: left;
+}
